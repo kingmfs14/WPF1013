@@ -50,7 +50,7 @@ var expenseTotal = shopping[0] + shopping[1] + shopping[2] + shopping[3] + shopp
 var averageExpense = expenseTotal / trips;
 
 // print out the average amount spent for each shopping trip
-console.log ("You have spet a total of $" + expenseTotal + " on groceries over 5 weeks. That is an average of $" + averageExpense + " per week.");
+console.log ("You have spent a total of $" + expenseTotal + " on groceries over 5 weeks. That is an average of $" + averageExpense + " per week.");
 
 
 //DISCOUNTS
