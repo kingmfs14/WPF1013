@@ -50,4 +50,20 @@ var expenseTotal = shopping[0] + shopping[1] + shopping[2] + shopping[3] + shopp
 var averageExpense = expenseTotal / trips;
 
 // print out the average amount spent for each shopping trip
-console.log ("You have spet a total of $" + expenseTotal + " on groceries over 5 weeks. That is an average of $" + averageExpense + " per week.")
+console.log ("You have spet a total of $" + expenseTotal + " on groceries over 5 weeks. That is an average of $" + averageExpense + " per week.");
+
+
+//DISCOUNTS
+// determine what the price of an item is before and after discount and taxes
+var description = "solid state drive";
+var itemPrice = 145;
+var discount = 20;
+var tax = 0.04166;
+
+//multiply price times discount ddivied by 100 and multiply discounted price tims tax
+var discountPrice = itemPrice * (discount / 100);
+var discountItem = itemPrice - discountPrice;
+var discountedPrice = (discountItem * tax) + discountItem;
+
+// print out the prices of item as it gets discounted
+console.log ("Your " + description + " was originally $" + itemPrice + ", but after a " + discount + "% discount, it is now $" + discountItem + " without tax, and $" + discountedPrice + " with tax.");
