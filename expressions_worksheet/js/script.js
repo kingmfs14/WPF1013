@@ -38,3 +38,16 @@ var extraSlices = pizzaSlices % people;
 
 // print out amount slices each person gets
 console.log("Sparky got " + extraSlices + " slices of pizza.");
+
+
+//AVERAGE SHOPPING BILL
+// get the average of previous grocery shopping
+var shopping = new Array (123,85,140,130,75);
+var trips = 5;
+
+// add up total shopping expenses and divide by number of trips
+var expenseTotal = shopping[0] + shopping[1] + shopping[2] + shopping[3] + shopping[4];
+var averageExpense = expenseTotal / trips;
+
+// print out the average amount spent for each shopping trip
+console.log ("You have spet a total of $" + expenseTotal + " on groceries over 5 weeks. That is an average of $" + averageExpense + " per week.")
