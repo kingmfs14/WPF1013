@@ -23,5 +23,5 @@ var neededGPM = fullGPM + halfGPM + quarterGPM;
 var totalGPM = gpmCurrent - neededGPM;
 var message = "You have " + totalGPM + " GPM left over with the current set up you have. \nIf this is negative you should change nozzle sizes.";
 
-//alert how many zombies are left
+//alert how much GPM is left
 alert (message);
