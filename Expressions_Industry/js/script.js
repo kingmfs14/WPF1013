@@ -1,24 +1,27 @@
-// Matthew King 10/9/2013 Wacky Expression
+// Matthew King 10/9/2013 Industrial Expression
 
 
-//ZOMBIE SURVIVAL
+//IRRIGATION PRESSURE
 
 // establish variables
-var zombies = prompt ("How many zombies are surrounding your structure?",500);
-var bullets = prompt ("How many bullets do you have left in your machine gun?");
-var grenades = prompt ("How many grenades do you have left?");
-var slugs = prompt ("How many slugs are left in your shotgun?");
+var psiCurrent = prompt ("What is your current functioning PSI? \nOptions: 15, 20, 25, or 30");
+var gpmCurrent = prompt ("What is your current GPM flow from a nearby hose bib?");
+var nozzleSize = prompt ("What size are your nozzles on the station? \nOptions: 5, 8, 10, 12, or 15");
+var fullNozzle = prompt ("How many full nozzles do you have on the station?");
+var halfNozzle = prompt ("How many half nozzles do you have on the station?");
+var quarterNozzle = prompt ("How many quarter nozzles do you have on the station?");
 
-// calculate how many zombies each weapon will kill
+// calculate how many GPM are currently being used
 
-var zombieBull = bullets / 3;
-var zombieSlug = slugs / 2;
-var zombieGren = grenades * 5;
+var nozzleGPM = (nozzleSize / 100) * (psiCurrent / 5);
+var fullGPM =  4 * nozzleGPM * fullNozzle;
+var halfGPM = 2 * nozzleGPM * halfNozzle;
+var quarterGPM = nozzleGPM * quarterNozzle;
+var neededGPM = fullGPM + halfGPM + quarterGPM;
 
-//calculate how many zombies are left after the massacre
-var zombieDead = parseInt(zombieBull) + parseInt(zombieSlug) + parseInt(zombieGren);
-var zombieAlive = zombies - zombieDead
-var message = "You have " + zombieAlive + " zombies still alive. \nGET OUT NOW!";
+//calculate if there is enough GPM to fulfill the needed GPM
+var totalGPM = gpmCurrent - neededGPM;
+var message = "You have " + totalGPM + " GPM left over with the current set up you have. \nIf this is negative you should change nozzle sizes.";
 
 //alert how many zombies are left
 alert (message);
