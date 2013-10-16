@@ -30,6 +30,7 @@ var overBudgetTransportation = transportation - transportationPercent;
 var overBudgetHousing = housing - housingPercent;
 var overBudgetInsurance = insurance - insurancePercent;
 var overBudgetPersonal = personal - personalPercent;
+var overBudgetDebt = debt - debtPercent;
 
 
 //conditionals
