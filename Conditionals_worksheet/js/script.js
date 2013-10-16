@@ -55,3 +55,19 @@ if(grade >= 95){
 	//if student has gotten an F
 	console.log("You have a " + grade + "%, which means you have earned a(n) F in the class!");
 }
+
+
+//TIRE PRESSURE 1
+
+//establish variables
+var front = new Array (35,35);
+var rear = new Array (40,30);
+
+//determine if vehicle will pass inspection
+if (front[0] === front[1] && rear[0] === rear[1]){
+	//if vehicle has passed inspection
+	console.log("The tires pass spec!");
+}else{
+	//if vehicle has failed inspection
+	console.log ("Get your tires checked out!")
+}
