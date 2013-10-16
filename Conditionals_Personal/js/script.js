@@ -61,3 +61,7 @@ if (insurancePercent > insurance) {
 	//insurance costs are too high
 	alert ("You are currently $" + overBudgetInsurance + " over the recommended insurance amount for your income.");
 }
+if (personalPercent > personal) {
+	//personal costs are too high
+	alert ("You are currently $" + overBudgetPersonal + " over the recommended personal amount for your income.");
+}
