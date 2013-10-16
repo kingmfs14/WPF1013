@@ -37,7 +37,7 @@ var overBudgetRecreation = recreation - recreationPercent;
 if (utilityPercent <= utilities && foodPercent <= food && transportationPercent <= transportation && housingPercent <= housing && insurancePercent <= insurance && personalPercent <= personal && debtPercent <= debt && recreationPercent <= recreation){
 	//budget is all good
 	alert ("Your current budget is on track!")
-}else if (foodPercent > food && transportationPercent > transportation && housingPercent > housing && insurancePercent > insurance && personalPercent > personal && debtPercent > debt && recreationPercent > recreation){
+}else if (utilityPercent > utilities && foodPercent > food && transportationPercent > transportation && housingPercent > housing && insurancePercent > insurance && personalPercent > personal && debtPercent > debt && recreationPercent > recreation){
 	//all costs are too high
 	alert ("All of your current costs are over the recommended amount!")
 }
