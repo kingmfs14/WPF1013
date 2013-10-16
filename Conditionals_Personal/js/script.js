@@ -49,3 +49,7 @@ if (foodPercent > food) {
 	//food costs are too high
 	alert ("You are currently $" + overBudgetFood + " over the recommended amount for your income.");
 }
+if (transportationPercent > transportation) {
+	//transportation costs are too high
+	alert ("You are currently $" + overBudgetTransportation + " over the recommended amount for your income.");
+}
