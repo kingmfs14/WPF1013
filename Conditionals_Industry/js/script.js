@@ -5,3 +5,4 @@
 // establish variables
 var width = prompt ("What is the width of the planter?");
 var length = prompt ("What is your length of the planter?");
+var trays = prompt ("How many trays of groundcover do you have?");
