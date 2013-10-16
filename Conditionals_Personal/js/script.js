@@ -24,14 +24,14 @@ var debtPercent = income * .05;
 var recreationPercent = income * .05;
 
 //budgeted costs
-var overBudgetUtility = utilities - utilityPercent;
-var overBudgetFood = food - foodPercent;
-var overBudgetTransportation = transportation - transportationPercent;
-var overBudgetHousing = housing - housingPercent;
-var overBudgetInsurance = insurance - insurancePercent;
-var overBudgetPersonal = personal - personalPercent;
-var overBudgetDebt = debt - debtPercent;
-var overBudgetRecreation = recreation - recreationPercent;
+var overBudgetUtility = utilityPercent - utilities;
+var overBudgetFood = foodPercent - food;
+var overBudgetTransportation = transportationPercent - transportation;
+var overBudgetHousing = housingPercent - housing;
+var overBudgetInsurance = insurancePercent - insurance;
+var overBudgetPersonal = personalPercent - personal;
+var overBudgetDebt = debtPercent - debt;
+var overBudgetRecreation = recreationPercent - recreation;
 
 //conditionals
 if (utilityPercent <= utilities && foodPercent <= food && transportationPercent <= transportation && housingPercent <= housing && insurancePercent <= insurance && personalPercent <= personal && debtPercent <= debt && recreationPercent <= recreation){
