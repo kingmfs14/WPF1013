@@ -57,3 +57,7 @@ if (housingPercent > housing) {
 	//housing costs are too high
 	alert ("You are currently $" + overBudgetHousing + " over the recommended housing amount for your income.");
 }
+if (insurancePercent > insurance) {
+	//insurance costs are too high
+	alert ("You are currently $" + overBudgetInsurance + " over the recommended insurance amount for your income.");
+}
