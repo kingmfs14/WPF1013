@@ -3,8 +3,8 @@
 
 
 // establish variables
-var width = prompt ("What is the width of the planter? \nIn Inches, please.");
-var length = prompt ("What is your length of the planter? \nIn Inches, please.");
+var width = prompt ("What is the width of the planter? \nIn inches, please.");
+var length = prompt ("What is your length of the planter? \nIn inches, please.");
 var trays = prompt ("How many trays of groundcover do you have?");
 var cell = prompt ("What size are your groundcover tray cells? \nOptions: 16, 24, 36, or 48");
 var gcNeeded
@@ -12,7 +12,6 @@ var gcNeeded
 // calculations
 var planter = width * length;
 var groundcover = trays * cell;
-var gcMore = parseInt(gcNeeded) - groundcover;
 
 //conditionals
 
@@ -25,6 +24,9 @@ if (cell === 16) {
 }else {
 	gcNeeded = planter / 5;
 }
+
+var gcMore = parseInt(gcNeeded) - groundcover;
+
 
 //alert conditionals
 (gcNeeded < groundcover) ? alert ("You have enough groundcover for your planter!") : alert ("You still need to get " + gcMore + " cells of groundcover for your planter!");
