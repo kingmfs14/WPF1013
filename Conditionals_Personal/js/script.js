@@ -20,3 +20,4 @@ var transportationPercent = income * .10;
 var housingPercent = income * .30;
 var insurancePercent = income * .20;
 var personalPercent = income * .10;
+var debtPercent = income * .05;
