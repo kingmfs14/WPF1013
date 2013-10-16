@@ -26,7 +26,7 @@ if (cell === 16) {
 }
 
 var gcMore = parseInt(gcNeeded) - groundcover;
-
+var trayMore = gcMore / cell;
 
 //alert conditionals
-(gcNeeded < groundcover) ? alert ("You have enough groundcover for your planter!") : alert ("You still need to get " + gcMore + " cells of groundcover for your planter!");
+(gcNeeded < groundcover) ? alert ("You have enough groundcover for your planter!") : alert ("You still need to get " + parseInt(trayMore) + " trays of groundcover with a " + cell + " count for your planter!");
