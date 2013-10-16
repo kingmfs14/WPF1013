@@ -26,6 +26,7 @@ var recreationPercent = income * .05;
 //budgeted costs
 var overBudgetUtility = utilities - utilityPercent;
 var overBudgetFood = food - foodPercent;
+var overBudgetTransportation = transportation - transportationPercent;
 
 
 //conditionals
