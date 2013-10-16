@@ -8,4 +8,5 @@ var utlities = prompt ("How much do you spend on utilities, monthly?");
 var food = prompt ("How much do you spend on food, monthly?");
 var transportation = prompt ("How much do you spend on gas, bus, taxi, metro; monthly?");
 var housing = prompt ("How much do you spend on rent/mortgage, monthly?");
+var insurance = prompt ("How much do you spend on health, car, dental, house and any other type of insurance, monthly?");
 
