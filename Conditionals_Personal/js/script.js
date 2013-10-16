@@ -31,7 +31,7 @@ var overBudgetHousing = housing - housingPercent;
 var overBudgetInsurance = insurance - insurancePercent;
 var overBudgetPersonal = personal - personalPercent;
 var overBudgetDebt = debt - debtPercent;
-
+var overBudgetRecreation = recreation - recreationPercent;
 
 //conditionals
 if (utilityPercent <= utilities && foodPercent <= food && transportationPercent <= transportation && housingPercent <= housing && insurancePercent <= insurance && personalPercent <= personal && debtPercent <= debt && recreationPercent <= recreation){
