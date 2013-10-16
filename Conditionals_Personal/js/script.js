@@ -69,3 +69,7 @@ if (debtPercent > debt) {
 	//debt costs are too high
 	alert ("You are currently $" + overBudgetDebt + " over the recommended debt amount for your income.");
 }
+if (recreationPercent > recreation) {
+	//recreational costs are too high
+	alert ("You are currently $" + overBudgetRecreation + " over the recommended recreation amount for your income.");
+}
