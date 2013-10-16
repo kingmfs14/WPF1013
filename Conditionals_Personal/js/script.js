@@ -65,3 +65,7 @@ if (personalPercent > personal) {
 	//personal costs are too high
 	alert ("You are currently $" + overBudgetPersonal + " over the recommended personal amount for your income.");
 }
+if (debtPercent > debt) {
+	//debt costs are too high
+	alert ("You are currently $" + overBudgetDebt + " over the recommended debt amount for your income.");
+}
