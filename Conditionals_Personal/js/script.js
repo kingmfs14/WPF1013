@@ -39,5 +39,9 @@ if (utilityPercent <= utilities && foodPercent <= food && transportationPercent 
 	alert ("Your current budget is on track!")
 }else if (utilityPercent > utilities && foodPercent > food && transportationPercent > transportation && housingPercent > housing && insurancePercent > insurance && personalPercent > personal && debtPercent > debt && recreationPercent > recreation){
 	//all costs are too high
-	alert ("All of your current costs are over the recommended amount!")
+	alert ("All of your current costs are over the recommended amount!");
+}
+if (utilityPercent > utilities) {
+	//utility costs are too high
+	alert ("You are currently $" + overBudgetUtility + " over the recommended amount for your income.");
 }
