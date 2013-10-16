@@ -10,4 +10,5 @@ var transportation = prompt ("How much do you spend on gas, bus, taxi, metro; mo
 var housing = prompt ("How much do you spend on rent/mortgage, monthly?");
 var insurance = prompt ("How much do you spend on health, car, dental, house and any other type of insurance, monthly?");
 var personal = prompt ("How much do you spend on personal hygiene, monthly?");
+var debt = prompt ("How much do you spend on paying off debt, monthly?");
 
