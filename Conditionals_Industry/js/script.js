@@ -17,4 +17,6 @@ var groundcover = trays * cell;
 
 if (cell === 16) {
 	gcNeeded = planter / 18;
+}else if (cell === 24) {
+	gcNeeded = planter / 12;
 }
