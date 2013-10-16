@@ -53,3 +53,7 @@ if (transportationPercent > transportation) {
 	//transportation costs are too high
 	alert ("You are currently $" + overBudgetTransportation + " over the recommended transportation amount for your income.");
 }
+if (housingPercent > housing) {
+	//housing costs are too high
+	alert ("You are currently $" + overBudgetHousing + " over the recommended housing amount for your income.");
+}
