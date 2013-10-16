@@ -28,6 +28,7 @@ var overBudgetUtility = utilities - utilityPercent;
 var overBudgetFood = food - foodPercent;
 var overBudgetTransportation = transportation - transportationPercent;
 var overBudgetHousing = housing - housingPercent;
+var overBudgetInsurance = insurance - insurancePercent;
 
 
 //conditionals
