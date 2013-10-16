@@ -13,7 +13,7 @@ var personal = prompt ("How much do you spend on personal hygiene, monthly?");
 var debt = prompt ("How much do you spend on paying off debt, monthly?");
 var recreation = prompt ("How much do you spend on recreational activities, monthly?");
 
-//calculations
+//percentages
 var utilityPercent = income * .10;
 var foodPercent = income * .10;
 var transportationPercent = income * .10;
@@ -22,6 +22,9 @@ var insurancePercent = income * .20;
 var personalPercent = income * .10;
 var debtPercent = income * .05;
 var recreationPercent = income * .05;
+
+//budgeted costs
+var overBudgetUtility = utilities - utilityPercent;
 
 //conditionals
 if (utilityPercent <= utilities && foodPercent <= food && transportationPercent <= transportation && housingPercent <= housing && insurancePercent <= insurance && personalPercent <= personal && debtPercent <= debt && recreationPercent <= recreation){
