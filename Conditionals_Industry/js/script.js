@@ -10,3 +10,4 @@ var cell = prompt ("What size are your groundcover tray cells? \nOptions: 16, 24
 
 // calculations
 var planter = width * length;
+var groundcover = trays * cell;
