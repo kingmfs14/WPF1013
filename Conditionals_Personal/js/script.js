@@ -45,3 +45,7 @@ if (utilityPercent > utilities) {
 	//utility costs are too high
 	alert ("You are currently $" + overBudgetUtility + " over the recommended amount for your income.");
 }
+if (foodPercent > food) {
+	//food costs are too high
+	alert ("You are currently $" + overBudgetFood + " over the recommended amount for your income.");
+}
