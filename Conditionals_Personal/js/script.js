@@ -3,3 +3,4 @@
 
 
 // establish variables
+var income = prompt ("What is your income after taxes?");
