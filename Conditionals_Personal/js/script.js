@@ -15,3 +15,4 @@ var recreation = prompt ("How much do you spend on recreational activities, mont
 
 //calculations
 var utilityPercent = income * .10;
+var foodPercent = income * .10;
