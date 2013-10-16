@@ -3,4 +3,5 @@
 
 
 // establish variables
-var income = prompt ("What is your income after taxes?");
+var income = prompt ("What is your monthly income after taxes?");
+var utlities = prompt ("How much do you spend on utilities, monthly?");
