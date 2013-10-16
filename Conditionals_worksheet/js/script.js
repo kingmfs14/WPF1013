@@ -37,21 +37,21 @@ if(grade >= 95){
 	//if student has gotten an A
 	console.log("You have a " + grade + "%, which means you have earned a(n) A in the class!");
 }else if(grade >= 85 && grade < 90){
-	//if student has gotten an C
+	//if student has gotten an B+
 	console.log("You have a " + grade + "%, which means you have earned a(n) B+ in the class!");
 }else if(grade >= 80 && grade < 85){
-	//if student has gotten an C
+	//if student has gotten an B
 	console.log("You have a " + grade + "%, which means you have earned a(n) B in the class!");
 }else if(grade >= 76 && grade < 80){
-	//if student has gotten an C
+	//if student has gotten an C+
 	console.log("You have a " + grade + "%, which means you have earned a(n) C+ in the class!");
 }else if(grade >= 73 && grade < 76){
 	//if student has gotten an C
 	console.log("You have a " + grade + "%, which means you have earned a(n) C in the class!");
 }else if(grade >= 70 && grade < 73){
-	//if student has gotten an C
+	//if student has gotten an D
 	console.log("You have a " + grade + "%, which means you have earned a(n) D in the class!");
 }else{
-	//if student has gotten an C
+	//if student has gotten an F
 	console.log("You have a " + grade + "%, which means you have earned a(n) F in the class!");
 }
