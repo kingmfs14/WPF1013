@@ -14,62 +14,62 @@ var debt = prompt ("How much do you spend on paying off debt, monthly?");
 var recreation = prompt ("How much do you spend on recreational activities, monthly?");
 
 //percentages
-var utilityPercent = income * .10;
-var foodPercent = income * .10;
-var transportationPercent = income * .10;
-var housingPercent = income * .30;
-var insurancePercent = income * .20;
-var personalPercent = income * .10;
-var debtPercent = income * .05;
-var recreationPercent = income * .05;
+var utilityPercent = income / 10;
+var foodPercent = income / 10;
+var transportationPercent = income / 10;
+var housingPercent = income / 3.3;
+var insurancePercent = income / 5;
+var personalPercent = income / 10;
+var debtPercent = income / 20;
+var recreationPercent = income / 20;
 
 //budgeted costs
-var overBudgetUtility = utilityPercent - utilities;
-var overBudgetFood = foodPercent - food;
-var overBudgetTransportation = transportationPercent - transportation;
-var overBudgetHousing = housingPercent - housing;
-var overBudgetInsurance = insurancePercent - insurance;
-var overBudgetPersonal = personalPercent - personal;
-var overBudgetDebt = debtPercent - debt;
-var overBudgetRecreation = recreationPercent - recreation;
+var overBudgetUtility = utilities - utilityPercent;
+var overBudgetFood = food - foodPercent;
+var overBudgetTransportation = transportation - transportationPercent;
+var overBudgetHousing = housing - housingPercent;
+var overBudgetInsurance = insurance - insurancePercent;
+var overBudgetPersonal = personal - personalPercent;
+var overBudgetDebt = debt - debtPercent;
+var overBudgetRecreation = recreation - recreationPercent;
 
 //conditionals
-if (utilityPercent <= utilities && foodPercent <= food && transportationPercent <= transportation && housingPercent <= housing && insurancePercent <= insurance && personalPercent <= personal && debtPercent <= debt && recreationPercent <= recreation){
+if (utilityPercent >= utilities && foodPercent >= food && transportationPercent >= transportation && housingPercent >= housing && insurancePercent >= insurance && personalPercent >= personal && debtPercent >= debt && recreationPercent >= recreation){
 	//budget is all good
 	alert ("Your current budget is on track!")
-}else if (utilityPercent > utilities && foodPercent > food && transportationPercent > transportation && housingPercent > housing && insurancePercent > insurance && personalPercent > personal && debtPercent > debt && recreationPercent > recreation){
+}else if (utilityPercent < utilities && foodPercent < food && transportationPercent < transportation && housingPercent < housing && insurancePercent < insurance && personalPercent < personal && debtPercent < debt && recreationPercent < recreation){
 	//all costs are too high
 	alert ("All of your current costs are over the recommended amount!");
 }
-if (utilityPercent > utilities) {
+if (utilityPercent < utilities) {
 	//utility costs are too high
 	alert ("You are currently $" + overBudgetUtility + " over the recommended utility amount for your income.");
 }
-if (foodPercent > food) {
+if (foodPercent < food) {
 	//food costs are too high
 	alert ("You are currently $" + overBudgetFood + " over the recommended food amount for your income.");
 }
-if (transportationPercent > transportation) {
+if (transportationPercent < transportation) {
 	//transportation costs are too high
 	alert ("You are currently $" + overBudgetTransportation + " over the recommended transportation amount for your income.");
 }
-if (housingPercent > housing) {
+if (housingPercent < housing) {
 	//housing costs are too high
 	alert ("You are currently $" + overBudgetHousing + " over the recommended housing amount for your income.");
 }
-if (insurancePercent > insurance) {
+if (insurancePercent < insurance) {
 	//insurance costs are too high
 	alert ("You are currently $" + overBudgetInsurance + " over the recommended insurance amount for your income.");
 }
-if (personalPercent > personal) {
+if (personalPercent < personal) {
 	//personal costs are too high
 	alert ("You are currently $" + overBudgetPersonal + " over the recommended personal amount for your income.");
 }
-if (debtPercent > debt) {
+if (debtPercent < debt) {
 	//debt costs are too high
 	alert ("You are currently $" + overBudgetDebt + " over the recommended debt amount for your income.");
 }
-if (recreationPercent > recreation) {
+if (recreationPercent < recreation) {
 	//recreational costs are too high
 	alert ("You are currently $" + overBudgetRecreation + " over the recommended recreation amount for your income.");
 }
