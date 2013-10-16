@@ -22,3 +22,9 @@ var insurancePercent = income * .20;
 var personalPercent = income * .10;
 var debtPercent = income * .05;
 var recreationPercent = income * .05;
+
+//conditionals
+if (utilityPercent <= utilities && foodPercent <= food && transportationPercent <= transportation && housingPercent <= housing && insurancePercent <= insurance && personalPercent <= personal && debtPercent <= debt && recreationPercent <= recreation){
+	//budget is all good
+	alert ("Your current budget is on track!")
+}
