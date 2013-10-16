@@ -18,3 +18,4 @@ var utilityPercent = income * .10;
 var foodPercent = income * .10;
 var transportationPercent = income * .10;
 var housingPercent = income * .30;
+var insurancePercent = income * .20;
