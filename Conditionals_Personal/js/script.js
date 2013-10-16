@@ -43,13 +43,13 @@ if (utilityPercent <= utilities && foodPercent <= food && transportationPercent 
 }
 if (utilityPercent > utilities) {
 	//utility costs are too high
-	alert ("You are currently $" + overBudgetUtility + " over the recommended amount for your income.");
+	alert ("You are currently $" + overBudgetUtility + " over the recommended utility amount for your income.");
 }
 if (foodPercent > food) {
 	//food costs are too high
-	alert ("You are currently $" + overBudgetFood + " over the recommended amount for your income.");
+	alert ("You are currently $" + overBudgetFood + " over the recommended food amount for your income.");
 }
 if (transportationPercent > transportation) {
 	//transportation costs are too high
-	alert ("You are currently $" + overBudgetTransportation + " over the recommended amount for your income.");
+	alert ("You are currently $" + overBudgetTransportation + " over the recommended transportation amount for your income.");
 }
