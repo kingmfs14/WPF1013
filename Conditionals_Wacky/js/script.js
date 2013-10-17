@@ -11,3 +11,4 @@ var time = prompt ("How long are you going to be chasing frogs for? \nIn minutes
 
 //calculations
 var frogGrowth = currentFrog * 5;
+var frogPopulation = frogGrowth * ponds;
