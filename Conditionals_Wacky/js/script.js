@@ -14,3 +14,4 @@ var frogGrowth = currentFrog * 5;
 var frogPopulation = frogGrowth * ponds;
 var runFrog = (tireWidth / 4) * 12;
 var convert = speed * (1 / 1.46667);
+var secTime = time / 60;
