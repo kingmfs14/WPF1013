@@ -24,5 +24,5 @@ if (deadFrogs >= frogPopulation) {
 	alert ("With the time you have you are able to get all of the frogs!");
 }else {
 	//You are unable to kill all the frogs
-	alert ("You are able to get " + parseInt(deadFrogs) + " frogs in " + time + " but there are still " + parseInt(frogsLeft) + " frogs alive!");
+	alert ("You are able to get " + parseInt(deadFrogs) + " frogs in " + time + " minutes, but there are still " + parseInt(frogsLeft) + " frogs alive!");
 }
