@@ -18,3 +18,8 @@ var secTime = time / 60;
 var deadFrogs = runFrog * convert * secTime;
 var frogsLeft = frogPopulation - deadFrogs;
 
+//conditionals
+if (deadFrogs >= frogPopulation) {
+	//You have enough time to kill them all
+	alert ("With the time you have you are able to get all of the frogs!");
+}
