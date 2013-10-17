@@ -16,3 +16,5 @@ var runFrog = (tireWidth / 4) * 12;
 var convert = speed * (1 / 1.46667);
 var secTime = time / 60;
 var deadFrogs = runFrog * convert * secTime;
+var frogsLeft = frogPopulation - deadFrogs;
+
