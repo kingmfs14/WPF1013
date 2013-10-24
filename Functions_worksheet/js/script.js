@@ -15,3 +15,9 @@ function calcCircum(radius){
 
 // print out the total circumference
 console.log("The circumference of the circle is " + total + ".");
+
+
+
+//STUNG!
+// Establish variables
+var total = killAnimal(367);
