@@ -37,6 +37,7 @@ if (photographer === yes) {
 
 //create function variables
 var videoTime = video(rehearseTime, ceremonyTime, receptTime);
+var videoHourTime = (videoTime + photoTime) % 60;
 
 //function for videoTime
 function video (reh, cer, rec) {
