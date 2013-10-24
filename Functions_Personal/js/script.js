@@ -5,3 +5,4 @@
 //establish beginning variables
 var rehearsal = prompt ("Would you like your rehearsal video taped?");
 var ceremony = prompt ("Would you like your ceremony video taped?");
+var reception = prompt ("Would you like your reception video taped?");
