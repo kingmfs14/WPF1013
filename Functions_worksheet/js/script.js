@@ -12,3 +12,6 @@ function calcCircum(radius){
 	var circum = pi * (2 * radius);
 	return circum;
 }
+
+// print out the total circumference
+console.log("The circumference of the circle is " + total + ".");
