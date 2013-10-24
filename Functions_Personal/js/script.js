@@ -1,33 +1,6 @@
-// Matthew King 10/23/13 Functions Worksheet
+// Matthew King 10/24/13 Functions Personal Project
 
 
-
-//CIRCUMFERENCE
-// Establish variables
-var total = calcCircum(7);
-
-// create function for finding the circumference of a circle
-function calcCircum(radius){
-	var pi = 3.14;
-	var circum = pi * (2 * radius);
-	return circum;
-}
-
-// print out the total circumference
-console.log("The circumference of the circle is " + total + ".");
-
-
-
-//STUNG!
-// Establish variables
-var total = killAnimal(367);
-
-// create function for determining the amount of bee stings
-function killAnimal(weight){
-	var poison = 8.666666667;
-	var lethal = poison * weight;
-	return lethal;
-}
-
-// print out amount of stings
-console.log("It takes " + total + " bee stings to kill this animal.");
+// Determine the amount of labor needed for wedding video
+//establish beginning variables
+var rehearsal = prompt ("Would you like your rehearsal video taped?");
