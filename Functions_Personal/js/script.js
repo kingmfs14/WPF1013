@@ -24,3 +24,8 @@ if (reception === yes) {
 }else {
 	var receptTime = 0;
 }
+if (photos === yes) {
+	var photographer = prompt ("Will you hire an additional photographer?");
+}else {
+	var photoTime = 0;
+}
