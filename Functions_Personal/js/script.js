@@ -19,3 +19,8 @@ if (ceremony === yes) {
 }else {
 	var ceremonyTime = 0;
 }
+if (reception === yes) {
+	var receptTime = prompt ("How long do you anticipate your reception being? \nIn minutes, please.");
+}else {
+	var receptTime = 0;
+}
