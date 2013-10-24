@@ -2,3 +2,7 @@
 
 
 
+//CIRCUMFERENCE
+// Establish variables
+var total = calcCircum(7);
+
