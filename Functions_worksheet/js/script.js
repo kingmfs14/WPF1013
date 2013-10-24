@@ -28,3 +28,6 @@ function killAnimal(weight){
 	var lethal = poison * weight;
 	return lethal;
 }
+
+// print out amount of stings
+console.log("It takes " + total + " bee stings to kill this animal.");
