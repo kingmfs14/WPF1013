@@ -6,3 +6,5 @@
 var rehearsal = prompt ("Would you like your rehearsal video taped?");
 var ceremony = prompt ("Would you like your ceremony video taped?");
 var reception = prompt ("Would you like your reception video taped?");
+var photos = prompt ("Would you like the video to include some photos?");
+
