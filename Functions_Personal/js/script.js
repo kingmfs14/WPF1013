@@ -46,3 +46,6 @@ function video (reh, cer, rec) {
 	var totalTime = recordingTotal + editingTotal;
 	return totalTime;
 }
+
+//alert user to the amount of hours it will take to produce a wedding video
+alert ("The proposed wedding video will take " + videoHourTime + " hours to produce.");
