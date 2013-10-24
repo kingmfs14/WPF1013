@@ -43,4 +43,5 @@ function video (reh, cer, rec) {
 	var recordingTotal = reh + cer + rec;
 	var editingTotal = recordingTotal * 3;
 	var totalTime = recordingTotal + editingTotal;
+	return totalTime;
 }
