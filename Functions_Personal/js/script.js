@@ -29,3 +29,9 @@ if (photos === yes) {
 }else {
 	var photoTime = 0;
 }
+if (photographer === yes) {
+	var photoTime = 480;
+}else {
+	var photoTime = rehearseTime + ceremonyTime + receptTime + 240;
+}
+
