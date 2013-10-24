@@ -41,4 +41,6 @@ var videoTime = video(rehearseTime, ceremonyTime, receptTime);
 //function for videoTime
 function video (reh, cer, rec) {
 	var recordingTotal = reh + cer + rec;
+	var editingTotal = recordingTotal * 3;
+	var totalTime = recordingTotal + editingTotal;
 }
