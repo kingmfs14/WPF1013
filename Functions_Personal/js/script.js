@@ -14,3 +14,8 @@ if (rehearsal === yes) {
 }else {
 	var rehearseTime = 0;
 }
+if (ceremony === yes) {
+	var ceremonyTime = prompt ("How long do you anticipate your ceremony being? \nIn minutes, please.");
+}else {
+	var ceremonyTime = 0;
+}
