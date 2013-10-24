@@ -35,3 +35,5 @@ if (photographer === yes) {
 	var photoTime = rehearseTime + ceremonyTime + receptTime + 240;
 }
 
+//create function variables
+var videoTime = video(rehearseTime, ceremonyTime, receptTime);
