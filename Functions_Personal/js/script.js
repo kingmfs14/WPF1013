@@ -3,10 +3,10 @@
 
 // Determine the amount of labor needed for wedding video
 //establish beginning variables
-var rehearsal = prompt ("Would you like your rehearsal video taped?");
-var ceremony = prompt ("Would you like your ceremony video taped?");
-var reception = prompt ("Would you like your reception video taped?");
-var photos = prompt ("Would you like the video to include some photos?");
+var rehearsal = prompt ("Would you like your rehearsal video taped? \nyes or no only please.");
+var ceremony = prompt ("Would you like your ceremony video taped? \nyes or no only please.");
+var reception = prompt ("Would you like your reception video taped? \nyes or no only please.");
+var photos = prompt ("Would you like the video to include some photos? \nyes or no only please.");
 
 //create if statements to gather more information
 if (rehearsal === yes) {
