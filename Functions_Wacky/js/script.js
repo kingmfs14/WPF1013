@@ -12,4 +12,6 @@ var brush = prompt ("How thick is the brush that your opponent is hiding behind?
 //establish rate conditional variable
 if (rate === auto) {
 	var paint = 20;
+}else if (rate === 6) {
+	var paint = 18;
 }
