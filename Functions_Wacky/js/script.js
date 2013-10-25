@@ -9,3 +9,7 @@ var rate = prompt ("At what rate are you firing the paintballs at? \nOptions: si
 var thick = prompt ("What type of ball will you be using? \nOptions: field, recreation, intermediate, professional");
 var brush = prompt ("How thick is the brush that your opponent is hiding behind? \nthick, sticks, or leaves");
 
+//establish rate conditional variable
+if (rate === auto) {
+	var paint = 20;
+}
