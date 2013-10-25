@@ -18,7 +18,7 @@ if (spreading === hand) {
 }
 
 //create function call out
-total = bagsNeeded(footage, spread);
+var total = bagsNeeded(footage, spread);
 
 //create function
 function bagsNeeded (ft, sprd) {
