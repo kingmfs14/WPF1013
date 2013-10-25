@@ -13,4 +13,6 @@ var currentFertilze = prompt ("How many 50 pound bags of fertilzer do you have?"
 var footage = lawn * area;
 if (spreading === hand) {
 	var spread = 1.75;	
+}else {
+	var spread = 1;
 }
