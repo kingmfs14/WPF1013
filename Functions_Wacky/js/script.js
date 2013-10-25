@@ -6,3 +6,4 @@
 //establish variables
 var velocity = prompt ("How fast are the paintballs exiting your gun? \nPlease type in between 180 and 320.");
 var rate = prompt ("At what rate are you firing the paintballs at? \nOptions: single, 3, 6, or auto");
+var thick = prompt ("What type of ball will you be using? \nOptions: field, recreation, intermediate, professional");
