@@ -40,3 +40,12 @@ if (brush === thick) {
 	var breaks = 5;
 }
 
+//call out anonymous functions
+if (velocity < 250) {
+	var hit = function(wl, br){
+		var broke = wl % br;
+		var through = paint - broke;
+		var shots = through / 2;
+		return shots;
+	}
+}
