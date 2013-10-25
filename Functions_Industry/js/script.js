@@ -28,3 +28,5 @@ function bagsNeeded (ft, sprd) {
 	return needed;
 }
 
+//create alert to user
+(currentFertilze > total) ? alert ("You currently have enough bags of fertilzer to fertilze your lawn areas.") : alert ("You need an additional " + parseInt(total) + ", 50 pound, bags of lawn fertilzer.");
