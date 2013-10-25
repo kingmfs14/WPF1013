@@ -48,4 +48,5 @@ if (velocity < 250) {
 		var shots = through / 2;
 		return shots;
 	}
+	var balls = hit(wall, breaks);
 }
