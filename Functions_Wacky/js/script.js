@@ -34,4 +34,6 @@ if (thick === professional) {
 //establish brush conditional variable
 if (brush === thick) {
 	var breaks = 14;
+}else if (brush === sticks) {
+	var breaks = 10;
 }
