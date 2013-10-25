@@ -23,5 +23,6 @@ total = bagsNeeded(footage, spread);
 //create function
 function bagsNeeded (ft, sprd) {
 	var use = sprd * 4.5;
+	var ftUse = use % 1000;
 }
 
