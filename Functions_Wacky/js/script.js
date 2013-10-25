@@ -36,4 +36,7 @@ if (brush === thick) {
 	var breaks = 14;
 }else if (brush === sticks) {
 	var breaks = 10;
+}else {
+	var breaks = 5;
 }
+
