@@ -55,5 +55,5 @@ if (velocity < 250) {
 		var through = paint - broke;
 		return through;
 	}
-
+	var balls = hit(wall, breaks);
 }
