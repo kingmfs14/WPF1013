@@ -27,4 +27,7 @@ if (thick === professional) {
 	var wall = 5;
 }else if (thick === recreation) {
 	var wall = 4;
+}else {
+	var wall = 2;
 }
+
