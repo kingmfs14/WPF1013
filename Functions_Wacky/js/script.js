@@ -16,4 +16,7 @@ if (rate === auto) {
 	var paint = 18;
 }else if (rate === 3) {
 	var paint = 12;
+}else {
+	var paint = 7;
 }
+
