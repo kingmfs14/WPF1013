@@ -23,4 +23,6 @@ if (rate === auto) {
 //establish thick conditional variable
 if (thick === professional) {
 	var wall = 8;
+}else if (thick === intermediate) {
+	var wall = 5;
 }
