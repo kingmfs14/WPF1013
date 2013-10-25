@@ -20,3 +20,7 @@ if (rate === auto) {
 	var paint = 7;
 }
 
+//establish thick conditional variable
+if (thick === professional) {
+	var wall = 8;
+}
