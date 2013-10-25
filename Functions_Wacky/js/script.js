@@ -57,3 +57,7 @@ if (velocity < 250) {
 	}
 	var balls = hit(wall, breaks);
 }
+
+
+//alert user to amount balls have gotten through in one second
+var message = "When firing paintballs traveling at " + velocity + " towards an opponent behind " + brush + " brush, " + balls + " will get through the brush hitting your opponent.";
