@@ -49,4 +49,11 @@ if (velocity < 250) {
 		return shots;
 	}
 	var balls = hit(wall, breaks);
+}else {
+	var hit = function(wl, br){
+		var broke = br % wl;
+		var through = paint - broke;
+		return through;
+	}
+
 }
